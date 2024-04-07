@@ -2,32 +2,12 @@
   <img src="https://www.svgrepo.com/show/368858/nextjs.svg" width="200">
 </p>
 
-<h3 align="center">Front-end Template</h3>
+<h3 align="center">Antonio Santana Portfolio</h3>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/anttoniogn-dev/next-template) 
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/anttoniogn-dev/next-template)
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/anttoniogn-dev/portfolio-anttonio) 
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/anttoniogn-dev/portfolio-anttonio)](https://github.com/anttoniogn-dev/portfolio-anttonio)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
-
-> [!NOTE]\
-> Template for development of front-end projects.
-
-| *Dependencies* | *Version*
-| --- | --- |
-| **next** | **14.1.4** |
-| **node** | **^20.0** |
-| **json-server** | **^1.0.0-alpha.23** |
-| **dotenv** | **16.4.5** |
-
-### Usage
-
-```bash
-git clone https://github.com/anttoniogn-dev/next-template.git
-
-cd next-template
-
-npm install && npm run dev
-```
