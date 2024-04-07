@@ -1,31 +1,43 @@
 .hdr {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
   border-bottom: 1px solid white;
   background-color: rgb(38, 20, 41);
+  width: 100%;
 }
 
 .hdr-imgs {
   display: flex;
   align-items: center;
+}
+
+.hdr-imgs {
+  width: 100%;
 
   img {
-    margin: 10px;
+    margin: 20px;
   }
 
-  a {
-    text-decoration: underline;
-    
-    span {
-      transition: filter 0.2s ease-out;
-    }
+  img:nth-child(1) {
+    margin-left: 5%;
   }
+}
 
-  a:hover {
-    span {
-      filter: brightness(0.8);
-    }
+.hdr-imgs a {
+  text-decoration: underline;
+
+  span {
+    transition: filter 0.2s ease-out;
   }
+}
+
+.hdr-imgs a:hover span {
+  filter: brightness(0.8);
+}
+
+.hdr-right {
+  display: flex;
+  align-items: center;
+  width: 20%
 }

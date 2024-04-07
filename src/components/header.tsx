@@ -6,30 +6,30 @@ export default function Header() {
   return (
     <header className="hdr">
       <div className="hdr-imgs">
-        <Image src="/icons/gmail-icon.png" alt="gmail" width={20} height={20} />
-        antoniosantanagn.dev@gmail.com
+        <Image src="/icons/gmail-icon.png" alt="gmail" width={25} height={25} />
+        aumamsdov@gmail.com
       </div>
-      <div className="hdr-imgs">
-        <Image
-          src="/icons/linkedin-icon.png"
-          alt="linkedin"
-          width={20}
-          height={20}
-        />
-        <Link href="https://www.linkedin.com/in/antoniosgn/">
-          <span>Antonio Santana</span>
-        </Link>
-      </div>
-      <div className="hdr-imgs">
-        <Image
-          src="/icons/github-icon.png"
-          alt="github"
-          width={20}
-          height={20}
-        />
-        <Link href="https://github.com/anttoniogn-dev">
-          <span>anttoniogn-dev</span>
-        </Link>
+      <div className="hdr-right">
+        <div className="hdr-imgs">
+          <Link href="https://www.linkedin.com/in/antoniosgn/">
+            <Image
+              src="/icons/linkedin-icon.png"
+              alt="linkedin"
+              width={25}
+              height={25}
+            />
+          </Link>
+        </div>
+        <div className="hdr-imgs">
+          <Link href="https://github.com/anttoniogn-dev">
+            <Image
+              src="/icons/github-icon.png"
+              alt="github"
+              width={30}
+              height={30}
+            />
+          </Link>
+        </div>
       </div>
     </header>
   );
