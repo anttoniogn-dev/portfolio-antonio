@@ -7,7 +7,7 @@ export default function Header() {
     <header className="hdr">
       <div className="hdr-imgs">
         <Image src="/icons/gmail-icon.png" alt="gmail" width={25} height={25} />
-        aumamsdov@gmail.com
+        antoniosantanagn.dev@gmail.com
       </div>
       <div className="hdr-right">
         <div className="hdr-imgs">
