@@ -1,0 +1,76 @@
+.h-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.h-main-div:hover {
+  cursor: default;
+}
+
+.main-div--inf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h1 {
+    font-size: 8vh;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#eee, #61509c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: text-shadow 0.2s ease-in;
+  }
+
+  h2 {
+    font-size: 6vh;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#eee, #61509c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: text-shadow 0.2s ease-in;
+  }
+
+  h1:hover {
+    text-shadow: 1px 1px 2px, 0 0 1px blue, 0 0 1px blue;
+  }
+
+  h2:hover {
+    text-shadow: 1px 1px 2px, 0 0 1px blue, 0 0 1px blue;
+  }
+}
+
+.main-div--nav {
+  margin-top: 15%;
+
+  a {
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    font-size: 4vh;
+    transition: background-color 0.2s ease-out;
+
+    span {
+      letter-spacing: 1.5px;
+      background: -webkit-radial-gradient(#8860ed, #f7f7f7);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: filter 0.2s ease-out;
+    }
+  }
+
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    span {
+      filter: brightness(1.4);
+    }
+  }
+}
