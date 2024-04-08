@@ -1,7 +1,7 @@
 import { Repository } from "@/interfaces";
 
 export const fetchGitHubRepos = async () => {
-  const url = "https://api.github.com/users/anttoniogn-dev/repos";
+  const url = "https://api.github.com/users/asagone/repos";
 
   await new Promise((resolve) => setTimeout(resolve, 5000));
 
