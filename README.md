@@ -1,33 +1,25 @@
 <p align="center">
-  <img src="https://www.svgrepo.com/show/368858/nextjs.svg" width="200">
+<img src="./public/static/portfolio-antonio.png" width="450" />
 </p>
 
-<h3 align="center">Front-end Template</h3>
+### <p align="center">Portfolio</p>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/anttoniogn-dev/next-template) 
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/anttoniogn-dev/next-template)
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/anttoniogn-dev/portfolio-anttonio)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/anttoniogn-dev/portfolio-anttonio)](https://github.com/anttoniogn-dev/portfolio-anttonio)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
-> [!NOTE]\
-> Template for development of front-end projects.
+> [!WARNING]\
+> In development.
 
-| *Dependencies* | *Version*
-| --- | --- |
-| **next** | **14.1.4** |
-| **node** | **^20.0** |
-| **json-server** | **^1.0.0-alpha.23** |
-| **dotenv** | **16.4.5** |
+### Build With
 
-### Usage
-
-```bash
-git clone https://github.com/anttoniogn-dev/next-template.git
-
-cd next-template
-
-npm install && npm run dev
-```
+| Framework / Lang | version |
+| ---- | ---- |
+| **Next** |  **14.1** |
+| **React** | **18.0** |
+| **TypeScript** | **5.0** |
+| **Node.js** | **20.0** |
